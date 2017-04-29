@@ -6,7 +6,7 @@ import java.util.*;
 import org.apache.solr.client.solrj.SolrServerException;
 
 import dto.DTO_Pregunta;
-import enlaceDeDatos.ConexionBaseDatosRedis;
+
 import logicaDeIntegracion.FactoryConversacion;
 
 /**
@@ -43,20 +43,20 @@ public class Pregunta {
      * @throws SolrServerException
      * @throws IOException
      */
-    public void registrarPreguntaRespuesta() throws SolrServerException, IOException{
-    	registrarBaseDatosRedis(); //Registra en la base  de datos.
-    	registrarEnWatson();  // Entrena el servicio de watson.
-    }
+//    public void registrarPreguntaRespuesta() throws SolrServerException, IOException{
+//    	registrarBaseDatosRedis(); //Registra en la base  de datos.
+//    	registrarEnWatson();  // Entrena el servicio de watson.
+//    }
     
     /**
      * Registra la pregunta en una base de datos Redis.
      */
-    private void registrarBaseDatosRedis()
-    {
-    	ConexionBaseDatosRedis registrar = new ConexionBaseDatosRedis();
-    	registrar.insertarDatos(categoriaPregunta, pregunta, respuesta.getRespuesta());
-
-    }
+//    private void registrarBaseDatosRedis()
+//    {
+//    	ConexionBaseDatosRedis registrar = new ConexionBaseDatosRedis();
+//    	registrar.insertarDatos(categoriaPregunta, pregunta, respuesta.getRespuesta());
+//
+//    }
     
     /**
      * Registra la pregunta en Watson para el proceso de entrenamiento.

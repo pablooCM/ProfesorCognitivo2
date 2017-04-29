@@ -33,7 +33,7 @@ public class Traductor implements ITraductor {
 	 * Traduce un texto de español a ingles.
 	 * @param pTexto. 
 	 */
-	public String traducirEspañolIngles(String pTexto)
+	public String traducirEspanolIngles(String pTexto)
 	{
 		TranslationResult resultadoTraduccion = servicioTraducir.translate(pTexto,Language.SPANISH,Language.ENGLISH).execute();
 	    return obtenerRespuesta(resultadoTraduccion.toString());

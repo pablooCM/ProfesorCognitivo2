@@ -4,7 +4,7 @@ import java.util.*;
 
 
 
-import enlaceDeDatos.ConexionBaseDatosRedis;
+//import enlaceDeDatos.ConexionBaseDatosRedis;
 
 /**
  * Clase Consulta.
@@ -40,12 +40,12 @@ public abstract class Consulta {
      * @param pCategoria
      * @return ArrayList datos de una categoria.
      */
-    public  ArrayList<String> obtenerDatosCategoria(String pCategoria)
-    {
-    	ConexionBaseDatosRedis obtenerDatos = new ConexionBaseDatosRedis();
-    	return obtenerDatos.obtenerDatos(pCategoria);
-    	
-    }
+//    public  ArrayList<String> obtenerDatosCategoria(String pCategoria)
+//    {
+//    	ConexionBaseDatosRedis obtenerDatos = new ConexionBaseDatosRedis();
+//    	return obtenerDatos.obtenerDatos(pCategoria);
+//    	
+//    }
     
     
 

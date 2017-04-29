@@ -75,7 +75,7 @@ public class ControladorWeb {
 	
 	public static String solicitudTraducirAIngles(String pTexto)
 	{
-		return FactoryTraductor.crearTraductor().traducirEspañolIngles(pTexto);
+		return FactoryTraductor.crearTraductor().traducirEspanolIngles(pTexto);
 		
 	}
 	
