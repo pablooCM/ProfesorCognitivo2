@@ -18,8 +18,8 @@ import com.ibm.watson.developer_cloud.language_translation.v2.model.TranslationR
 public class Traductor implements ITraductor {
 
 	private LanguageTranslation servicioTraducir;
-	private final static String NOMBREUSUARIO = "11e3e5eb-5665-466a-9891-b09fb25f50bb";
-	private final static String CONTRASENA = "BGIGbBhCCFgx";
+	private final static String NOMBREUSUARIO = "44ffda95-3824-4e51-990d-01f456e360a6";
+	private final static String CONTRASENA = "svjKOTn0zxcL";
 	
 	/**
 	 * Constructor de la clase.

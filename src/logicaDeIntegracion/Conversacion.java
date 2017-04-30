@@ -37,20 +37,20 @@ import com.ibm.watson.developer_cloud.retrieve_and_rank.v1.RetrieveAndRank;
 /**
  * Clase que se encarga de conectarse con el servicio de watson RetrieveAndRank.
  * Registra documentos y realizar consultas a esos documentos.
- * @author PEDS
+ * @author pakelean
  * @version 1.0
  */
 
 public class Conversacion implements IConversacion {
 
-	private static final String NOMBREUSUARIO = "df5dddb0-3925-4c81-badb-4539817e18ae";
-	   private static final String CONTRASENA = "X7zwk2pGGMU5";
+	private static final String NOMBREUSUARIO = "ba6271e1-c4a2-421a-8664-be4d2782f7d8";
+	   private static final String CONTRASENA = "8iZMTvE75nJw";
 	    private static final String NOMBRECLUSTER ="ClusterDS";
 	    private static final String CLUSTERID = "sc5d2ec594_27c7_43bd_982a_a680411d004b";
 
 
 	   private static final String NOMBRECONFIGURACION = "ConfiguracionDS";
-	   private static final String NOMBRECOLECCION = "WatsonTutor";	
+	   private static final String NOMBRECOLECCION = "ProfesorCognitivo";	
 	   private static RetrieveAndRank servicio;
 	   private static SolrClient clienteSolr;
 	   
@@ -116,7 +116,7 @@ public class Conversacion implements IConversacion {
 	    	document.addField("title", pPregunta);
 	    	document.addField("body", pRespuesta);
 	    	
-	    	document.addField("author", "Watson Tutor");
+	    	document.addField("author", "Profesor Cognitivo");
 	    	document.addField("bibliography", "IBM BLUEMIX");
 
 
