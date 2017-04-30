@@ -9,7 +9,7 @@ import java.util.*;
 /**
  * Clase Consulta.
  * Consume los servicios de watson.
- * @author PEDS
+ * @author pakelean
  * @version 1.0
  */
 public abstract class Consulta {

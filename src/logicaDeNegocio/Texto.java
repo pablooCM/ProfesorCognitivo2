@@ -10,7 +10,7 @@ import dto.DTO_Consulta;
 
 /**
  * Clase que realiza consultas, cuando se realizan desde teclado.
- * @author PEDS
+ * @author pakelean
  * @version 1.0
  */
 public class Texto extends Consulta {

@@ -5,7 +5,7 @@ import dto.DTO_Pregunta;
 
 /**
  * Clase de patrón creacional Factory Simple.
- * @author PEDS
+ * @author pakelean
  * @version 1.0
  */
 public class FactoryPregunta {

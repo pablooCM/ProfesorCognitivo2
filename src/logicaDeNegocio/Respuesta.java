@@ -3,7 +3,7 @@ package logicaDeNegocio;
 /**
  * Crea la respuesta asociada a una pregunta.
  * 
- * @author PEDS
+ * @author pakelean
  *@version 1.0
  *
  */

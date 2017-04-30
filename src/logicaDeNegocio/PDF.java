@@ -5,7 +5,7 @@ import dto.DTO_Documento;
 
 /**
  * Esta clase crea objetos de tipo PDF
- * @author PEDS_ATI
+ * @author pakelean
  *
  */
 public class PDF extends Documento{

@@ -6,7 +6,7 @@ import java.util.Date;
  * Esta clase permite crear objetos de tipo DTO_Documento que permite transportar
  * atributos de los objetos de tipo documento. Solo posee m�todos getter y setter 
  * para obtener y establecer sus atributos.
- * @author PEDS_ATI
+ * @author pakelean
  *
  */
 public class DTO_Documento {

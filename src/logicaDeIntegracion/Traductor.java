@@ -12,7 +12,7 @@ import com.ibm.watson.developer_cloud.language_translation.v2.model.TranslationR
 
 /**
  * Clase que se encarga de conectar el servicio de watson de traducir.
- * @author PEDS
+ * @author pakelean
  * @version 1.0
  */
 public class Traductor implements ITraductor {
