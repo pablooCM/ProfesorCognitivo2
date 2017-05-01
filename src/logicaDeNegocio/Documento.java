@@ -8,7 +8,7 @@ import dto.DTO_Documento;
 
 /**
  * Esta super clase permite crear objetos de tipo Documento
- * @author PEDS_ATI
+ * @author pakelean
  *
  */
 public abstract class Documento {

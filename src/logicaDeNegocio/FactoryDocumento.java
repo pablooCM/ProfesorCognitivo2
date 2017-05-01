@@ -6,7 +6,7 @@ import dto.DTO_Documento;
 
 /**
  * Esta clase permite crear objetos de tipo Documento mediante un método de clase
- * @author PEDS_ATI
+ * @author pakelean
  *
  */
 public class FactoryDocumento {

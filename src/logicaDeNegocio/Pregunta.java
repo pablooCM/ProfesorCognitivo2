@@ -16,7 +16,7 @@ import logicaDeIntegracion.FactoryConversacion;
  * Se encarga de entrenar el servicio de watson.
  * Realiza la prsistencia de datos.
  * 
- * @author PEDS
+ * @author pakelean
  * @version 1.0
  */
 public class Pregunta {
