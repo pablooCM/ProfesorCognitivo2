@@ -1,0 +1,12 @@
+#profesor-login, #registrar-estudiantes, #registrar-curso, #asignar-profesor{
+    height: 110vh;
+    background: #eaeaea;
+}
+
+#profesor-login form, #registrar-estudiantes form, #registrar-curso form, #asignar-profesor form{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
