@@ -1,0 +1,11 @@
+---
+applications:
+- name: ProfesorCognitivo2
+  memory: 512M
+  host: ProfesorCognitivoPaKeLean2
+  domain: mybluemix.net
+  services:
+  - Language Translator-at
+  - Continuous Delivery
+  - Speech to Text-0o
+  - Retrieve and Rank-7m

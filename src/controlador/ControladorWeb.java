@@ -85,10 +85,10 @@ public class ControladorWeb {
 	 * @return
 	 */
 	
-	public static ArrayList<String> solicitarDatosCategoria(String pCategoria){
-		DTO_Consulta nuevaConsulta = new DTO_Consulta();
-		nuevaConsulta.setTipoConsulta("Texto");
-		return FactoryConsulta.crearConsulta(nuevaConsulta).obtenerDatosCategoria(pCategoria);
-	}
+//	public static ArrayList<String> solicitarDatosCategoria(String pCategoria){
+//		DTO_Consulta nuevaConsulta = new DTO_Consulta();
+//		nuevaConsulta.setTipoConsulta("Texto");
+//		return FactoryConsulta.crearConsulta(nuevaConsulta).obtenerDatosCategoria(pCategoria);
+//	}
 
 }
