@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,17 +29,8 @@
             </div>
 
             <div class="form-group">
-                <label for="curso">Tema:</label>
-                <Select class="form-control" id="curso">
-                    <option value=""></option>
-                    <option value="ti505">Diseño de software</option>
-                    <option value="ti506">Diseño de software 2</option>
-                </Select>
-            </div>
-
-            <div class="form-group">
-                <label for="subtema">Subtema:</label>
-                <input type="text" class="form-control" id="subtema">
+                <label for="tema">Tema:</label>
+                <input type="text" class="form-control" id="tema">
             </div>
 
             <div class="form-group">
