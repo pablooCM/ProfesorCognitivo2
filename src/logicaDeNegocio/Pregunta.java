@@ -21,6 +21,9 @@ import logicaDeIntegracion.FactoryConversacion;
  */
 public class Pregunta {
 	
+	public String Enunciado;
+	public String ayudaRespuesta;
+	public int puntajePregunta =0;
 	private String pregunta;
 	private String categoriaPregunta;
 	private Respuesta respuesta;
