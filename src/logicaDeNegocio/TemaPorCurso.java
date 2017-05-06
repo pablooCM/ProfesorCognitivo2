@@ -1,9 +1,11 @@
 package logicaDeNegocio;
-import dto.DTO_Temas;
+import dto.DTO_Tema;
+
 
 public class TemaPorCurso {
+	public String tituloTema;
 	public String descripcionTema;
-	public void RegistrarTema(DTO_Temas DTOnuevoTema){
+	public void RegistrarTema(DTO_Tema DTOnuevoTema){
 		
 	}
 

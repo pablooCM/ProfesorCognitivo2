@@ -15,25 +15,26 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import dto.DTO_Consulta;
+import dto.DTO_Pregunta;
 
 /**
  * Clase que realiza l consulta, cuando la entrada es un archivo de audio.
  * @author PEDS
  * @version 1.0
  */
-public class Voz extends Consulta {
+public class Voz extends Desarrollo {
 
     
-    private File contenidoPreguntaAudio; //archivo de audio en formato wav o flac. Contiene el audio con la pregunta.
+    private String contenidoPreguntaAudio; //archivo de audio en formato wav o flac. Contiene el audio con la pregunta.
 
   /**
    * Constructor de la clase.
    * @param DTO_nuevaConsulta
    */
-    public Voz(DTO_Consulta DTO_nuevaConsulta)
+    public Voz(DTO_Pregunta DTO_nuevaPregunta)
     {
     	super();
-        this.contenidoPreguntaAudio = DTO_nuevaConsulta.getPreguntaVoz();
+        this.contenidoPreguntaAudio = DTO_nuevaPregunta.getPregunta();
     }
 
  

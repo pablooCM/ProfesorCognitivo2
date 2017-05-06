@@ -8,7 +8,7 @@ import dto.DTO_Pregunta;
  * @author pakelean
  * @version 1.0
  */
-public class FactoryPregunta {
+public class FactoryPregunta implements Pregunta {
 	
 	/**
 	 * Crea un nuevo objeto de tipo pregunta

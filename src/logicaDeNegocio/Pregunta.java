@@ -19,7 +19,7 @@ import logicaDeIntegracion.FactoryConversacion;
  * @author pakelean
  * @version 1.0
  */
-public class Pregunta {
+public abstract class Pregunta implements FactoryPregunta {
 	
 	public String Enunciado;
 	public String ayudaRespuesta;
@@ -40,6 +40,7 @@ public class Pregunta {
     	
     }
     
+
     /**
      * Registra la pregunta con su respuesta asociada.
      * El registro se realiza en una base de datos y se encarga de entrenar el servicio de watson.
